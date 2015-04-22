@@ -2,7 +2,7 @@
 ## The following functions store in cache the inverse of a matrix
 
 ## makeCacheMatrix function creates a matrix object that stores a matrix in the cache
-## This matrix object also contains functions to retrieve or set both the matrix and its inverse
+## This matrix object contains function to retrieve or set both the matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
