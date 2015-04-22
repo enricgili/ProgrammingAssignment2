@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Second Assignment for Coursera's 'R Programming' course
+## The following functions store in cache the inverse of a matrix
 
-## Write a short comment describing this function
+## makeCacheMatrix function creates a matrix object that stores a matrix in the cache
+## This matrix object contains function to retrieve or set both the matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Cachesolve calculates the inverse of a matrix object (returned by makeCacheMatrix())
+## If the inverse has been calculated already before, then the function gets the inverse from the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
